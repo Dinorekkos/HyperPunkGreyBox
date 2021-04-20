@@ -14,7 +14,6 @@ public class KeyOverlay : MonoBehaviour
     }
 
 //HOLI CRAYOLIL
-//OLI RAVIOLI
     void Update()
     {
         float step = 2f;
