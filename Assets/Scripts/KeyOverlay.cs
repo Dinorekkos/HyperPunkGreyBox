@@ -1,9 +1,12 @@
+using System.Runtime.Serialization.Formatters;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class KeyOverlay : MonoBehaviour
 {
+
+    //Hoola
     public GameObject Key;
     public float Scale;
 
@@ -13,10 +16,6 @@ public class KeyOverlay : MonoBehaviour
         gameObject.transform.localScale = new Vector3(Scale, Scale, 1f);
     }
 
-//HOLI CRAYOLIL
-//OLI RAVIOLI
-
-//HelloAgain
     void Update()
     {
         float step = 2f;
@@ -25,6 +24,7 @@ public class KeyOverlay : MonoBehaviour
         if(gameObject.transform.localScale.x <= 1f)
         {
             gameObject.SetActive(false);
+            
         }
     }
 }
