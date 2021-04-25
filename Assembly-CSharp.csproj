@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\SongObject.cs" />
+     <Compile Include="Assets\Scripts\Core\BeatController.cs" />
      <Compile Include="Assets\Scripts\KeyOverlay.cs" />
      <Compile Include="Assets\Scripts\KeyTouched.cs" />
     <Reference Include="UnityEngine">
